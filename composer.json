@@ -1,0 +1,23 @@
+{
+  "name": "shmemary/penpoint",
+  "authors": [
+    {
+      "name": "Shamin Memary",
+      "email": "shamin.v@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*",
+    "vlucas/phpdotenv": "^5.6",
+    "predis/predis": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "core\\": "core",
+      "src\\": "src"
+    },
+    "files": [
+      "core/helpers.php"
+    ]
+  }
+}
